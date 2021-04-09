@@ -67,7 +67,8 @@ try {
         ost.close();
         
       if (!ost) error("cannot open output file", name);
-           
+      
+      // code compiles but it keeps getting an error message for the output bit, no clue why
          
       // 10.5 close ofstream open ifstream, store points in vector called processed points
       vector<Point> processed_points;
